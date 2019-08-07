@@ -1,0 +1,196 @@
+body {
+    font-family: sans-serif; 
+}
+
+/* * {
+    box-sizing: content-box;
+    border: 1px solid black;
+} */
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container-2 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, rgba(203,42,104,1) 0%, rgba(251,176,59,1) 100%);
+    padding: 13% 2.3% 0 2.3%;
+    transform: skewY(-10deg) translateY(-18%);
+}
+
+nav.container {
+    margin-bottom: 1.8%;
+    transform: skewY(10deg);
+}
+
+nav , .navLinks, .siteLinks, .socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo {
+    flex-basis: 50%;
+}
+
+nav .logo a img {
+    width: 35%;
+}
+
+nav .socialMedia a img {
+    width: 60%;
+    margin-left: 40%;
+}
+
+nav .navLinks .siteLinks a {
+    font-size: 1.6vw;
+    text-decoration: none;
+    color: white;
+}
+
+nav .navLinks .siteLinks a p {
+    border-right: 1px solid white;
+    box-sizing: content-box;
+    padding: 0 2vw;
+}
+
+.article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: skewY(10deg);
+}
+
+.article .articleText {
+    color: white;
+    flex-basis: 40%;
+}
+
+.article .articleText h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+.article .articleText p {
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.article .articleImage {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.article .articleImage img {
+    width: 80%;
+    transform: translateY(10%);
+}
+main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main .mainImage {
+    flex-basis: 40%;
+}
+
+main .mainText {
+    flex-basis: 60%;
+    padding-left: 9%;
+}
+
+main .mainImage img {
+    width: 100%;
+    margin: 6% 0 6% -7%;
+}
+
+.mainText h1 {
+    font-size: 8vw;
+    color: #ca2968;
+    margin: 0;
+}
+
+.mainText ul {
+    padding-left: 0;
+}
+
+.mainText ul li {
+    font-size: 2vw;
+    font-weight: 100;
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.mainText ul li::before {
+    content: "\2023  ";
+    font-size: 2.5vw;
+}
+
+.devis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgba(203,42,104,0.12) 0%, rgba(251,176,59,0.12) 100%);
+    padding: 2% 0 4%;
+}
+
+.devis h3 {
+    text-align: center;
+    color: #ca2968;
+    font-size: 2.5vw;
+}
+
+.devis a button {
+    background-color: #ca2968;
+    color: white;
+    font-size: 2vw;
+    font-weight: 300;
+    padding: 1vw 15vw;
+    border-radius: 50px;
+}
+
+.devis button:hover {
+    cursor: pointer;
+}
+
+.work a img {
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(203,42,104,1) 0%, rgba(251,176,59,1) 100%);
+    padding: 1% 0;
+}
+
+.contact div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact div img {
+    width: 6%;
+}
+
+.contact div p {
+    color: white;
+    font-size: 1vw;
+}
